@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form>
+        <div class="form-input">
+          <input type="text" id="city-input" placeholder="Enter a city name">
+          <ul id="city-list"></ul>
+        </div>
+        <div class="form-input">
+          <label for="unit-toggle">Unit</label>
+          <input type="checkbox" id="unit-toggle">
+          <span id="unit-label">Fahrenheit</span>
+        </div>
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="weather"></div>
+    </div>
+    <script src="cities.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
